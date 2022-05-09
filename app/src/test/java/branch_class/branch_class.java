@@ -2,25 +2,27 @@ package branch_class;
 
 public class branch_class {
     float cgpa ;
-    char name ;
-    branch_class(float cgpa){
-        this.cgpa;
-        this.name
     }
 
-    public float getCgpa() {
+    private float getCgpa() {
         return cgpa;
     }
-
-    public char getName() {
-        return name;
-    }
-
-    public void setName(char name) {
-        this.name = name;
-    }
-
-    public void setCgpa(float cgpa) {
         this.cgpa = cgpa;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getSession() {
+        return session;
+    }
+
+    public void setSession(String session) {
+        this.session = session;
     }
 }
